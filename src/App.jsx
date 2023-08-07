@@ -1,16 +1,18 @@
-
+import React from 'react'
 import './App.css'
-import Gallery from './components/Gallery/Gallery'
-import Header from './components/Header/Header'
+import Header from './components/Header/Header.jsx'
+import Footer from './components/Footer/Footer'
+
 function App() {
 
 
   return (
     <>
-    <div className='app-container'>
-      
+      <div className='app-container'>
+        <Header />
 
-    </div>
+        <Footer />
+      </div>
     </>
   )
 }
